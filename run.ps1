@@ -1,6 +1,6 @@
 # 脚本用于扫描替换注册表值，比如修改用户文件夹名后
 Import-Module .\regedit.psm1 #引入脚本
-$replaceKey=@(‘C:\Users\谭松韵’,‘C:\Users\Wu’) 
+$replaceKey=@(‘C:\Users\中文名’,‘C:\Users\ChineseName’) #在这里写要替换的字符串和目标字符串
 # check param num
 if ($replaceKey.count -ne 2)
 {
