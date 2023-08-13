@@ -1,5 +1,5 @@
 @echo off 
-echo 小可爱正在扫垃圾，请吴偌灏主人稍等...... 
+echo 灏忓彲鐖辨鍦ㄦ壂鍨冨溇锛岃涓讳汉绋嶇瓑...... 
 del /f /s /q %systemdrive%\*.tmp 
 del /f /s /q %systemdrive%\*._mp 
 del /f /s /q %systemdrive%\*.log 
@@ -10,10 +10,10 @@ del /f /s /q %systemdrive%\recycled\*.*
 del /f /s /q %windir%\*.bak 
 del /f /s /q %windir%\prefetch\*.* 
 rd /s /q %windir%\temp & md %windir%\temp 
-del /f /q %userprofile%\小甜饼s\*.* 
+del /f /q %userprofile%\Administrator\*.* 
 del /f /q %userprofile%\recent\*.* 
 del /f /s /q "%userprofile%\Local Settings\Temporary Internet Files\*.*" 
 del /f /s /q "%userprofile%\Local Settings\Temp\*.*" 
 del /f /s /q "%userprofile%\recent\*.*" 
-echo 吴偌灏主人，扫完了，么么哒！好累（*_*`）哦!
+echo 涓讳汉锛屾壂瀹屼簡锛屼箞涔堝搾锛佸ソ绱紙*_*`锛夊摝!
 echo. & pause 
