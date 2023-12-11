@@ -1,4 +1,4 @@
-#设置注册表并日志
+#设置注册表并记录日志
 function SetAndLong($Path,$Name,$Value,$OldValue){
     #Requires -RunAsAdministrator
     $command="Set-ItemProperty -Path $Path -Name $Name -Value $Value "+';$?'
