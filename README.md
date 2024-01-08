@@ -2,7 +2,7 @@
 ## 注册表批量替换脚本
 利用Windows PowerShell对regedit注册表进行关键词批量替换的脚本。
 
-例如将中文名文件夹替换为英文名。
+例如将中文名文件夹替换为英文名。参考：https://blog.csdn.net/qq_34146694/article/details/117446830
 ### 步骤如下：
 * 将两个文件下载至同一目录下
 * 运行Windows PowerShell
